@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Iqtechnology\\FfProxy\\' => array($baseDir . '/src'),
+    'Formflex\\Proxy\\' => array($baseDir . '/src'),
 );
