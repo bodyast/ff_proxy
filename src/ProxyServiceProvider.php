@@ -1,6 +1,6 @@
 <?php
 
-namespace Iqtechnology\FfProxy;
+namespace Formflex\Proxy;
 
 use Illuminate\Support\ServiceProvider;
 

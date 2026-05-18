@@ -13,7 +13,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Iqtechnology\\FfProxy\\ProxyServiceProvider"
+                "Formflex\\Proxy\\ProxyServiceProvider"
             ]
         }
     }
