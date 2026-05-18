@@ -13,3 +13,7 @@ INSTALL
 ```bash
 composer require formflex/proxy:^1.0
 ```
+
+```bash
+php artisan vendor:publish --tag=formflex-config
+```
