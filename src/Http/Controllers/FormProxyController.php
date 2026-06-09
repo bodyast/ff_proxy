@@ -31,7 +31,7 @@ class FormProxyController
     public function show(string $id)
     {
         $response = $this->client()
-            ->get("/api/v1/client/forms/{$id}");
+            ->get("/api/v1/client/form-versions/{$id}");
 
         return response()->json($response->json(), $response->status());
     }
