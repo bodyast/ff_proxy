@@ -63,4 +63,12 @@ class FormProxyController
 
         return response()->json($response->json(), $response->status());
     }
+
+    public function fetchLookupList(string $id)
+    {
+        $response = $this->client()
+            ->get("/api/v1/client/data-lists/{$id}");
+
+        return response()->json($response->json(), $response->status());
+    }
 }
